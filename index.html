@@ -1,0 +1,94 @@
+<!DOCTYPE html><!-- HTML5 -->
+<html lang="es"><!-- idioma del documento -->
+<head>
+    <meta charset="UTF-8"><!--Tipo de codificación de la paguina-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Escala la paguina a la dimencion del dispositivo-->
+    <title>Fundamentos HTML</title><!--Titulo del Documento-->
+    <link rel="stylesheet" href="styles.css"><!--CSS-->
+</head>
+<body>
+    <header><!--Header principal-->
+        <nav><!--Navecion del Header-->
+            <a>Menu</a>
+			<ul><!--Lista Desordenada-->
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header><!--EdHeader-->
+    <main><!--Main global-->
+        <h1>Semantica de HTML5</h1>
+        <article><!--Un articulo con diferentes section-->
+            <header><!--Header de Articulo-->
+                <h1>Nuevo Articulo</h1>
+                <h2>Subtitle of Article</h2>
+                <p>HTML es la estructura principal de la web</p>
+            </header>
+            <section>
+                <h2>Section 1</h2>
+                <p>Paragraph 1 in second section</p>
+                <ol>
+                    <li>Nuevas</li>
+                    <li>Listas</li>
+                    <li>Ordenadas</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Section 2</h2>
+                <h4>Second Logical Part (e.g. "Practice")</h4>
+                <p>Paragraph 1 in second section</p>
+                <p>Paragraph 2 in second section</p>
+            </section>
+            <footer>
+                <h5>Author Bio</h5>
+                <p>Paragraph in Article's Footer</p>
+            </footer>
+        </article><!--endArticle-->
+        <aside><!--Aside-->
+            <h2>Aside</h2>
+            <section>
+              <h4>Nuevos Posts</h4>
+              <ul>
+                   <li>Otros</li>
+                   <li>Tendencia</li>
+              </ul>
+            </section>
+            <section>
+              <h4>Categorias</h4>
+              <ul>
+                  <li>Nuevos</li>
+                  <li>Datos</li>
+                  <li>Noticias</li>
+              </ul>
+            </section>
+            <section>
+              <h4>Testimonios</h4>
+              <ol>
+                  <li>Muy bueno</li>
+                  <li>Good</li>
+                  <li>I like</li>
+              </ol>
+            </section>
+            <section>
+                <p>Viewed by 1503 people</p>
+                <p>Author: John Smith</p>
+                <figure><!--Figura-->
+                    <img src="John Doe.png" alt="John Doe"/><!--Imagene -->
+                <figcaption>People who liked the article</figcaption>
+            </figure>
+            </section>
+        </aside><!--End Aside-->
+    </main><!--End Main-->
+    <footer><!--Footer-->
+        <p>Copyright 2020 Dannieldev</p>
+        <ul>
+            <li>Social Media Links</li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script><!--JavaScript-->
+</body>
+</html>
