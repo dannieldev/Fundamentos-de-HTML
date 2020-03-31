@@ -65,58 +65,89 @@
             <h3>Deja tu comentario</h3>
             <p>Tipos de <strom>IMPUT</strom></p>
             <form>
-                <label>Email:</label>
-                <input type="email">            
-            </form>
-            <form>
-                <label>URL:</label>
-                <input type="url">
-            </form>
-            <form>
-                <label>Telefono:</label>
-                <input type="tel">
-            </form>
-            <form>
-                <label>search:</label>
-                <input type="search">
-            </form>
-            <form>
-                <label>number:</label>
-                <input type="number">
-            </form>
-            <form>
-                <label>range:</label>
-                <input type="range">
-            </form>
-            <form>
-                <label>time:</label>
-                <input type="time">
-            </form>
-            <form>
-                <label>Color:</label>
-                <input type="color">
-            </form>
-            <form>
-                <label>Month:</label>
-                <input type="month">
-            </form>
-            <form>
-                <label>week:</label>
-                <input type="week">
-            </form>
-            <form>
-                <label>List:</label>
-                <input type="text" list="personajes">
-                <datalist id="personajes">
-                    <option value="loper">
-                    <option value="Fred">
-                    <option value="Miguel">
-                    <option value="Giñs">
-                </datalist>
-            </form>
-            <form>
-                <label>date:</label>
-                <input type="date">
+                <div>
+                    <label>Email:</label>
+                    <input type="email">            
+                </div>
+                <div>
+                    <label>URL:</label>
+                    <input type="url">
+                </div>
+                <div>
+                    <label>Telefono:</label>
+                    <input type="tel">
+                </div>
+                <div>
+                    <label>search:</label>
+                    <input type="search">
+                </div>
+                <div>
+                    <label>number:</label>
+                    <input type="number">
+                </div>
+                <div>
+                    <label>range:</label>
+                    <input type="range">
+                </div>
+                <div>
+                    <label>time:</label>
+                    <input type="time">
+                </div>
+                <div>
+                    <label>Color:</label>
+                    <input type="color">
+                </div>
+                <div>
+                    <label>Month:</label>
+                    <input type="month">
+                </div>
+                <div>
+                    <label>week:</label>
+                    <input type="week">
+                </div>
+                <div>
+                    <label>List:</label>
+                    <input type="text" list="personajes">
+                    <datalist id="personajes">
+                        <option value="loper">
+                        <option value="Fred">
+                        <option value="Miguel">
+                        <option value="Giñs">
+                    </datalist>
+                </div>
+                <div>
+                    <label>date:</label>
+                    <input type="date">
+                </div>
+                <div>
+                    <label>Text</label>
+                    <input type="text" autofocus placeholder="Tu Nombre">
+                </div>
+                <div>
+                    <label>Numeros</label>
+                    <input type="number" min="10" max="100" placeholder="numero de 10 a 100">
+                </div>
+                <div>
+                    <label>Numero incremento</label>
+                    <input type="number" step="6" slot="2">
+                </div>
+                <div>
+                    <label>Nikname</label>
+                    <input type="text" placeholder="max 6" maxlength="6">
+                </div>
+                <div>
+                    <label>Address required</label>
+                    <input type="text" placeholder="Dirección" required>
+                </div>
+                <div>
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="pwd" name="pwd"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters">
+                </div>
+                <div>
+                    <input type="submit" value="Emviar">
+                </div>
             </form>
         </aside>
     </main>
