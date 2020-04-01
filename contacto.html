@@ -1,3 +1,4 @@
+
 <!DOCTYPE html><!-- HTML5 -->
 <html lang="es"><!-- idioma del documento -->
 <head>
@@ -17,7 +18,36 @@
 			</ul>
 		</nav><!--EdHeader-->
     </header>
-    <main></main>
+    <main>
+        <h1>Formulario de Contacto</h1>
+        <form action="#">
+            <div>
+                <label>Ingresa tu nombre</label>
+                <input type="text" required>
+            </div>
+            <div>
+                <label for="">Ingresa tu apellido</label>
+                <input type="text" required>
+            </div>
+            <div>
+                <label for="">Ingresa tu Email</label>
+                <input type="email" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Invalid email address">
+            </div>
+            <div>
+                <label>Genero</label><br>
+                <input type="radio" name="genero" value="femenino"> Femenino<br>
+                <input type="radio" name="genero" value="masculino"> Masculino
+            </div>
+            <div>
+                <label>Nivel de Educación</label><br>
+                <input type="checkbox" name="academico" value="1">Primario<br>
+                <input type="checkbox" name="academico" value="2">Secundario<br>
+                <input type="checkbox" name="academico" value="2">Bachillerato<br>
+                <input type="checkbox" name="academico" value="2">Universidad<br>
+            </div>
+            <input type="submit">
+        </form>
+    </main>
     <footer><!--Footer-->
         <ul>
             <li>Social Media Links</li>
